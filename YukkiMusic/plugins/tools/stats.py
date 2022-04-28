@@ -57,7 +57,7 @@ async def stats_global(client, message: Message, _):
         _, True if message.from_user.id in SUDOERS else False
     )
     await message.reply_photo(
-        photo=config.STATS_IMG_URL,
+        photo=https://telegra.ph/file/de85de124349daf1648be.jpg,
         caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
         reply_markup=upl,
     )
