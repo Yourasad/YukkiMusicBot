@@ -32,7 +32,7 @@ PING_COMMAND = get_command("PING_COMMAND")
 @language
 async def ping_com(client, message: Message, _):
     response = await message.reply_photo(
-        photo= https://telegra.ph/file/de85de124349daf1648be.jpg,
+        photo="https://telegra.ph/file/de85de124349daf1648be.jpg",
         caption=_["ping_1"],
     )
     start = datetime.now()
