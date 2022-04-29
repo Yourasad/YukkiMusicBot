@@ -497,7 +497,7 @@ async def play_commnd(
                 )
                 await mystic.delete()
                 await message.reply_photo(
-                    photo="https://telegra.ph/file/de85de124349daf1648be.jpg",
+                    photo= img,
                     caption=cap,
                     reply_markup=InlineKeyboardMarkup(buttons),
                 )
